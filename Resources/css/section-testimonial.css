@@ -1,0 +1,98 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+html{
+    background-color : #fff;
+    font-weight : 300;
+    font-size : 20px;
+    color : #555;
+    font-family : 'Lato','calibri','arial';
+    text-rendering: optimizeLegibility;
+    
+}
+.row
+{
+    
+}
+
+/*------headings-------
+h2
+{
+    font-weight : 300;
+    font-size   : 160%;
+    word-spacing : 2px;
+    letter-spacing : 1px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform : uppercase;
+}
+h2:after{
+    display : block;
+    height: 3px;
+    background-color: #FEA47F;
+    content : " ";
+    width : 100px;
+    margin : 30px auto;
+    margin-top : 20px;
+}
+*/
+h2
+{
+    font-weight : 320;
+    font-size   : 150%;
+    word-spacing : 2px;
+    letter-spacing : 1px;
+    text-align: center;
+    margin-top : 30px;
+    text-transform : uppercase;
+}
+h2:after{
+    display : block;
+    height: 3px;
+    background-color: rgba(214, 50, 50, 0.925);
+    content : " ";
+    width : 100px;
+    margin : 0 auto;
+    margin-top : 20px;
+}
+
+.section-testimonial
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(img/backgound.jpg);
+    background-attachment: fixed;
+    background-size : cover;
+    background-position: center;
+    color : #fff;
+}
+
+blockquote{
+    padding : 2%;
+    font-size : 100%;
+    font-style: italic;
+    position: relative;
+    margin-top : 40px;
+    margin-left: 30px;
+}
+blockquote:before{
+    position : absolute;
+    display : block;
+    content : "\201c";
+    font-size: 400%;
+    top : -10%;
+    left :-5%
+}
+
+cite
+{
+    font-size : 90%;
+    display: block;
+    margin-top : 20px;
+}
+cite img{
+    height : 45px;
+    border-radius : 50%;
+    margin-right : 10px;
+    vertical-align: middle;
+}

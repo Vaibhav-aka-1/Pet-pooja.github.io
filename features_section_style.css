@@ -1,0 +1,21 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+.meals
+{
+    padding : 0;
+}
+
+.section-meal
+{
+list-style-type : none;
+width : 100%;
+}
+
+.section-meal li{
+    display: block;
+    float : left;
+    width : 25%;
+}
